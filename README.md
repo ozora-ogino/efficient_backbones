@@ -19,7 +19,7 @@ NOTE: All models implemented in this project doesn't have head.
 All model have `out_channels` attribute in order to access the number of out channels of backbone in the same way.
 
 ```python
-from src import build_backbone
+from efficient_backbones import build_backbone
 
 resnet_backbone = build_backbone("resnet18")
 out_channels = resnet_backbone.out_channels
