@@ -14,6 +14,12 @@ Currently following models are supported;
 
 NOTE: All models implemented in this project doesn't have head.
 
+## Installation
+
+```bash
+pip install git+https://github.com/ozora-ogino/efficient_backbones
+```
+
 ## Usage
 
 All model have `out_channels` attribute in order to access the number of out channels of backbone in the same way.
